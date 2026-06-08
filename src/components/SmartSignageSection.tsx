@@ -35,7 +35,7 @@ const tabs: Tab[] = [
     iconImage: nfcIcon,
     headline: "Controla todo tu negocio en un mismo panel",
     desc: "Una solución Wi-Fi que permite a los clientes utilizar servicios digitales en un establecimiento y estar conectados.",
-    image: "/uploads/nfc-device.png",
+    image: "/Web/uploads/nfc-device.png",
   },
   {
     id: "accesibilidad",
