@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Activity, Wifi, Thermometer, Droplets } from "lucide-react";
-const totemVideo = "/uploads/iot-totem.mp4";
+const totemVideo = "/Web/uploads/iot-totem.mp4";
 
 /* --------------------------- Tótem (real photo) --------------------------- */
 const TotemPhoto = () => {
