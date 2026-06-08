@@ -22,13 +22,13 @@ const Index = () => {
       <HeroSection />
       <ZoomParallax
         items={[
-          { src: "/uploads/showcase-video.mp4", alt: "Showcase", type: "video" },
-          { src: "/uploads/foto1.png", alt: "Tótems digitales", fit: "contain" },
-          { src: "/uploads/foto5.png", alt: "Robot de servicio", fit: "contain" },
-          { src: "/uploads/foto2.png", alt: "App de wayfinding", fit: "contain" },
-          { src: "/uploads/foto4.png", alt: "Sensores IoT", fit: "contain" },
-          { src: "/uploads/foto6.png", alt: "Digital signage retail", fit: "contain" },
-          { src: "/uploads/foto3.png", alt: "Asistente digital", fit: "contain" },
+          { src: "/Web/uploads/showcase-video.mp4", alt: "Showcase", type: "video" },
+          { src: "/Web/uploads/foto1.png", alt: "Tótems digitales", fit: "contain" },
+          { src: "/Web/uploads/foto5.png", alt: "Robot de servicio", fit: "contain" },
+          { src: "/Web/uploads/foto2.png", alt: "App de wayfinding", fit: "contain" },
+          { src: "/Web/uploads/foto4.png", alt: "Sensores IoT", fit: "contain" },
+          { src: "/Web/uploads/foto6.png", alt: "Digital signage retail", fit: "contain" },
+          { src: "/Web/uploads/foto3.png", alt: "Asistente digital", fit: "contain" },
         ]}
       />
       <div id="nosotros">
