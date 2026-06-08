@@ -1,16 +1,16 @@
 import * as React from "react";
 
 const clients = [
-  { name: "Vithas", logo: "/uploads/clients/vithas.png" },
-  { name: "Unicaja", logo: "/uploads/clients/unicaja.png" },
-  { name: "Oceanogràfic", logo: "/uploads/clients/oceanografic.png" },
-  { name: "Indra", logo: "/uploads/clients/indra.png" },
-  { name: "Fundació Visit Valencia", logo: "/uploads/clients/visitvalencia.png" },
-  { name: "Universitat de València", logo: "/uploads/clients/uv.png" },
-  { name: "Pelayo", logo: "/uploads/clients/pelayo.png" },
-  { name: "RIU Hotels & Resorts", logo: "/uploads/clients/riu.png" },
-  { name: "CaixaBank", logo: "/uploads/clients/caixabank.png" },
-  { name: "BBVA", logo: "/uploads/clients/bbva.png" },
+  { name: "Vithas", logo: "/Web/uploads/clients/vithas.png" },
+  { name: "Unicaja", logo: "/Web/uploads/clients/unicaja.png" },
+  { name: "Oceanogràfic", logo: "/Web/uploads/clients/oceanografic.png" },
+  { name: "Indra", logo: "/Web/uploads/clients/indra.png" },
+  { name: "Fundació Visit Valencia", logo: "/Web/uploads/clients/visitvalencia.png" },
+  { name: "Universitat de València", logo: "/Web/uploads/clients/uv.png" },
+  { name: "Pelayo", logo: "/Web/uploads/clients/pelayo.png" },
+  { name: "RIU Hotels & Resorts", logo: "/Web/uploads/clients/riu.png" },
+  { name: "CaixaBank", logo: "/Web/uploads/clients/caixabank.png" },
+  { name: "BBVA", logo: "/Web/uploads/clients/bbva.png" },
 ];
 
 const ClientsCarouselSection = () => {
