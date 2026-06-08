@@ -32,7 +32,7 @@ const WayfindingSection = () => {
         preload="metadata"
         className="absolute inset-0 w-full h-full object-cover z-0"
       >
-        <source src="/uploads/wayfinding-bg.mp4" type="video/mp4" />
+        <source src="/Web/uploads/wayfinding-bg.mp4" type="video/mp4" />
       </video>
       {/* Content */}
       <div className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-10 lg:px-16 w-full flex">
