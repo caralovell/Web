@@ -99,7 +99,7 @@ const DigitalSignageSection = () => {
               className="relative rounded-[1.5rem] overflow-hidden border border-border/40 shadow-[0_20px_60px_-20px_hsl(220_15%_15%/0.25)]"
             >
               <img
-                src="/uploads/digital-signage.png"
+                src="/Web/uploads/digital-signage.png"
                 alt="Digital Signage"
                 className="w-full h-full object-cover aspect-[4/5]"
               />
