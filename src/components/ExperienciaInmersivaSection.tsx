@@ -64,7 +64,7 @@ const ExperienciaInmersivaSection = () => {
           className="absolute inset-0 w-full h-full object-cover z-0 will-change-[opacity] motion-reduce:hidden"
           style={{ transform: "translateZ(0)" }}
         >
-          <source src="/uploads/experiencia-inmersiva-bg.mp4" type="video/mp4" />
+          <source src="/Web/uploads/experiencia-inmersiva-bg.mp4" type="video/mp4" />
         </video>
       )}
 
