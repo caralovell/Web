@@ -34,7 +34,7 @@ const BentoGallery = () => {
         >
           {/* Left column top — Tótems (vertical) */}
           <div className={`${cardBase} lg:row-span-2 row-span-1`}>
-            <Img src="/uploads/foto1.png" alt="Tótems digitales" />
+            <Img src="Web/uploads/foto1.png" alt="Tótems digitales" />
           </div>
 
           {/* Center — Video (large, spans 2 cols x 3 rows) */}
@@ -47,31 +47,31 @@ const BentoGallery = () => {
               preload="metadata"
               className="w-full h-full object-cover"
             >
-              <source src="/uploads/showcase-video.mp4" type="video/mp4" />
+              <source src="/Web/uploads/showcase-video.mp4" type="video/mp4" />
             </video>
           </div>
 
           {/* Right column top — Robot (vertical) */}
           <div className={`${cardBase} lg:row-span-2 row-span-1`}>
-            <Img src="/uploads/foto5.png" alt="Robot de servicio" />
+            <Img src="/Web/uploads/foto5.png" alt="Robot de servicio" />
           </div>
 
           {/* Left middle — Sensores IoT (horizontal) */}
           <div className={`${cardBase} row-span-1`}>
-            <Img src="/uploads/foto4.png" alt="Sensores IoT" />
+            <Img src="/Web/uploads/foto4.png" alt="Sensores IoT" />
           </div>
 
           {/* Right middle — App wayfinding (vertical) */}
           <div className={`${cardBase} row-span-1`}>
-            <Img src="/uploads/foto2.png" alt="App de wayfinding" />
+            <Img src="/Web/uploads/foto2.png" alt="App de wayfinding" />
           </div>
 
           {/* Bottom row */}
           <div className={`${cardBase} row-span-1`}>
-            <Img src="/uploads/foto3.png" alt="Asistente digital" />
+            <Img src="/Web/uploads/foto3.png" alt="Asistente digital" />
           </div>
           <div className={`${cardBase} col-span-2 row-span-1`}>
-            <Img src="/uploads/foto6.png" alt="Digital signage retail" />
+            <Img src="/Web/uploads/foto6.png" alt="Digital signage retail" />
           </div>
         </motion.div>
       </div>
