@@ -23,10 +23,10 @@ const Index = () => {
       <ZoomParallax
         items={[
           { src: "/Web/uploads/showcase-video.mp4", alt: "Showcase", type: "video" },
-          { src: "/Web/uploads/foto1.png", alt: "Tótems digitales", fit: "contain" },
-          { src: "/Web/uploads/foto5.png", alt: "Robot de servicio", fit: "contain" },
+          { src: "/Web/assets/ds.png", alt: "Tótems digitales", fit: "contain" },
+          { src: "/Web/asstes/roobot.png", alt: "Robot de servicio", fit: "contain" },
           { src: "/Web/uploads/foto2.png", alt: "App de wayfinding", fit: "contain" },
-          { src: "/Web/uploads/foto4.png", alt: "Sensores IoT", fit: "contain" },
+          { src: "/Web/assets/ioot.png", alt: "Sensores IoT", fit: "contain" },
           { src: "/Web/uploads/foto6.png", alt: "Digital signage retail", fit: "contain" },
           { src: "/Web/uploads/foto3.png", alt: "Asistente digital", fit: "contain" },
         ]}
