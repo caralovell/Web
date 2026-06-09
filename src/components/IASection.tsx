@@ -56,41 +56,14 @@ const IASection = () => {
           transition={{ duration: 0.55 }}
           className="text-center max-w-3xl mx-auto mb-12 md:mb-16"
         >
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-border/50 bg-card/50 backdrop-blur-sm mb-5">
-            <Sparkles size={13} className="text-[hsl(190,80%,45%)]" />
-            <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
-              Inteligencia Artificial
-            </span>
-          </div>
 
           <h2 className="font-bold text-3xl sm:text-4xl lg:text-5xl text-foreground leading-[1.05] tracking-tight">
-            IA visual, útil y lista para conectar.
+            Inteligencia Artificial
           </h2>
 
           <p className="mt-5 text-base md:text-lg text-muted-foreground leading-relaxed">
             Avatares, agentes y modelos inteligentes para crear experiencias digitales más humanas.
           </p>
-        </motion.div>
-
-        {/* Imagen principal */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.96, y: 24 }}
-          whileInView={{ opacity: 1, scale: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="relative max-w-[520px] mx-auto mb-10 md:mb-14"
-        >
-          <div className="absolute inset-0 bg-[hsl(190,80%,50%)]/25 blur-[90px] rounded-full scale-90" />
-
-          <div className="relative rounded-[2rem] p-[1px] bg-gradient-to-br from-[hsl(190,80%,55%)]/70 via-white/10 to-transparent shadow-[0_35px_100px_-45px_hsl(190,80%,40%,0.8)]">
-            <div className="rounded-[2rem] bg-card overflow-hidden">
-              <img
-                src={iaAvatar}
-                alt="Avatar IA"
-                className="w-full aspect-[4/5] object-cover"
-              />
-            </div>
-          </div>
         </motion.div>
 
         {/* Cards visuales */}
