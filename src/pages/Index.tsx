@@ -27,8 +27,8 @@ const Index = () => {
           { src: "/Web/uploads/roobot.png", alt: "Robot de servicio", fit: "contain" },
           { src: "/Web/uploads/foto2.png", alt: "App de wayfinding", fit: "contain" },
           { src: "/Web/uploads/ioot.png", alt: "Sensores IoT", fit: "contain" },
-          { src: "/Web/uploads/foto6.png", alt: "Digital signage retail", fit: "contain" },
-          { src: "/Web/uploads/foto3.png", alt: "Asistente digital", fit: "contain" },
+          { src: "/Web/uploads/pant.png", alt: "Digital signage retail", fit: "contain" },
+          { src: "/Web/uploads/persona.png", alt: "Asistente digital", fit: "contain" },
         ]}
       />
       <div id="nosotros">
