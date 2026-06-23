@@ -20,17 +20,6 @@ const Index = () => {
     <div className="min-h-screen">
       <Navbar />
       <HeroSection />
-      <ZoomParallax
-        items={[
-          { src: "/Web/uploads/showcase-video.mp4", alt: "Showcase", type: "video" },
-          { src: "/Web/uploads/ds.png", alt: "Tótems digitales", fit: "contain" },
-          { src: "/Web/uploads/roobot.png", alt: "Robot de servicio", fit: "contain" },
-          { src: "/Web/uploads/foto2.png", alt: "App de wayfinding", fit: "contain" },
-          { src: "/Web/uploads/ioot.png", alt: "Sensores IoT", fit: "contain" },
-          { src: "/Web/uploads/pant.png", alt: "Digital signage retail", fit: "contain" },
-          { src: "/Web/uploads/persona.png", alt: "Asistente digital", fit: "contain" },
-        ]}
-      />
       <div id="nosotros">
         <NosotrosSection />
       </div>
